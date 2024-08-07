@@ -78,6 +78,7 @@ scene.add(plane);
 
 //positioning mesh
 mesh.rotation.x = 5;
+camera.position.y = 1;
 
 // Animation loop
 function animate() {
