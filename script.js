@@ -80,6 +80,27 @@ scene.add(plane);
 mesh.rotation.x = 5;
 camera.position.y = 1;
 
+const zoomIn = () => {
+  camera.position.z -= 0.1;
+  controls.update();
+};
+
+const zoomOut = () => {
+  camera.position.z += 0.1;
+  controls.update();
+};
+
+// Event listeners for scaling
+document.addEventListener("keydown", (event) => {
+  if (event.key === "i") {
+    // Zoom in with 'i' key
+    zoomIn();
+  } else if (event.key === "o") {
+    // Zoom out with 'o' key
+    zoomOut();
+  }
+});
+
 // Animation loop
 function animate() {
   requestAnimationFrame(animate);
