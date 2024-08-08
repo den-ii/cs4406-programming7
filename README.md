@@ -2,5 +2,5 @@
 
 3D hyperbolic paraboloid with function definitions for vertices generation in THREE.js. [View Live Site](https://cs4406programmingunit7.netlify.app)
 
-Camera controls and keyboad control available
-Hit 'i' or '0' to zoom in or out.
+### Camera controls and keyboad controls available
+- Hit 'i' or '0' key to zoom in or out.
